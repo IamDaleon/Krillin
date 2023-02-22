@@ -1,14 +1,11 @@
-<!DOCTYPE html>
- <html <?php language_attributes(); ?>>
- <head>
-    <meta charset="<?php bloginfo('charaset');?>">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
- </head>
- <body <?php body_class();?>
-
-    <h1>Hello World</h1>
-    <header> <secton clas='top-bar'>
-        <div class
- </body>
- </html>
+<?php get_header(); ?>
+    <div id="content" class="site-content">
+        <div id="primary" class="content-area">
+            <main id="main" class="site-main">
+                <section class="hero">Jumbotron / Hero</section>
+                <section class="services"> Services </section>
+                <section class="home-blog">Blog </section>
+            </main>
+        </div>
+    </div>
+<?php get_footer(); ?>
