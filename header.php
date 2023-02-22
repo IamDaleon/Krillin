@@ -9,19 +9,26 @@
     <body <?php body_class();?>>
         <div id='page' class='site'>
             <header>
-                <section class='top-bar'>
-                    <div class='menu-area'>
+                <section class="top-bar">
+                    <div class="container"> 
+                        <div class='logo'>Logo</div>
                         <nav class="main-menu">
-                            <ul>
-                                <li class="fsd">About</li>    
-                                <li class="fsd">Products</li>    
-                                <li class="fsd">Contact</li>    
-                            </ul>
+                            <?php wp_nav_menu( array('theme_location' => 'krillin_main-menu', 'depth' => 2 )); ?>
                         </nav>
-                    </div>
-                    <div class='logo'>
-                    </div>
-                    <div class='searchbox'>
+                        </div>
                     </div>
                 </section>
+                <section class="">
+                    <div class="container">
+                        <nav class="main-menu">
+                            <button class="check-button">
+                                <div class="menu-icon">
+                                    <div class="bar1"></div>
+                                    <div class="bar2"></div>
+                                    <div class="bar3"></div>
+                                </div>
+                            </button>
+                        </nav>
+                    </div>
+                </section>  
             </header>
