@@ -364,7 +364,14 @@ Krillin is distributed under the terms of the GNU GPL.
   /**
    * Add the correct display in IE 10+.
    */
-  
+  .centering{
+    text-align: center;
+  }
+
+  .cortex{
+    margin-bottom: -30px;
+    }
+
   template {
     display: none;
   }
