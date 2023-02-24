@@ -13,6 +13,11 @@
             <?php wp_nav_menu( array('theme_location' => 'krillin_footer-menu', 'depth' =>1 )); ?>
         </nav>
     </div>
+    
+<div id="clickme">
+  Click here
+</div>
+<img id="book" src="<?php echo get_template_directory_uri(); ?>/assets/images/Caps.png" alt="" width="100" height="123">
         </footer>
     </div>
     <?php wp_footer(); ?>
