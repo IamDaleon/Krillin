@@ -2,6 +2,7 @@
 
 //This function enable Bootstrap to the Wordpress theme!
 function wpbootstrap_enqueue_styles() {
+    wp_enqueue_script( 'bootstrapjs', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js' );
     wp_enqueue_style( 'bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css' );
     wp_enqueue_style( 'my-style', get_template_directory_uri() . '/style.css');
     }

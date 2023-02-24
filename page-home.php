@@ -2,7 +2,7 @@
     <div id="content" class="site-content">
         <div id="primary" class="content-area">
             <main id="main" class="site-main">
-                
+               <section class="jumbotron"> 
             <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -11,7 +11,7 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="10000">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/focus.jpg" class="d-block w-100" alt="...">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/focus.jpg" class="d-block " alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>First slide label</h5>
         <p>Some representative placeholder content for the first slide.</p>
@@ -41,6 +41,7 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+</section>
                 <section class="services"> Services </section>
                 <section class="home-blog">
                
@@ -48,4 +49,5 @@
             </main>
         </div>
     </div>
+    
     <?php get_footer(); ?>
