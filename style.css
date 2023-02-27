@@ -1071,3 +1071,7 @@ header[role="banner"] #logo-main {
     padding-left: 30px;
     padding-right: 30px;
   }
+
+  .smlimg {
+     width: 25%;
+  }

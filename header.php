@@ -14,29 +14,30 @@
                     </div>
                 </section> -->
                 <section class="menu-area">
-                    <div class="container">
-                    <nav class="navbar navbar-expand-lg bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="/">Logo</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-                    <div class="container text-center">
-  <div class="row align-items-end"> 
-    <?php wp_nav_menu( array( 'theme_location' => 'krillin_main-menu', 'depth' => 2 )); ?>
-    </div>
-</nav>
+                <nav class="navbar navbar-expand-md bg-light navbar-dark">
+  <!-- Brand -->
+  <a class="navbar-brand" href="/"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/OPMS.webp" class="d-block smlimg " alt="..."></a>
 
-                        <nav class="main-menu">
-                            <button class="check-button">
-                                <div class="menu-icon">
-                                    <div class="bar1"></div>
-                                    <div class="bar2"></div>
-                                    <div class="bar3"></div>
-                                </div>
-                            </button>
-                        </nav>                    
-                    </div>
+  <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Navbar links -->
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+    </ul>
+  </div>
+</nav>
                     
             </section>
             </header>

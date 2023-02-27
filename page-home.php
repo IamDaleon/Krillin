@@ -42,8 +42,14 @@
   </button>
 </div>
 </section>
-                <section class="services"> Services </section>
-                <section class="home-blog">
+<section>
+  <?php get_template_part('parts/types', get_post_format() ); ?>
+  <?php get_template_part('parts/bestsellers', get_post_format() ); ?>
+  <?php get_template_part('parts/learn', get_post_format() ); ?>
+  <?php get_template_part('parts/ads', get_post_format() ); ?>
+</section>
+                <!-- <section class="services"> Services </section> -->
+                <!-- <section class="home-blog"> -->
                
                 </section>
             </main>
