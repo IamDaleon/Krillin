@@ -48,3 +48,17 @@ add_action( 'wp_enqueue_scripts', 'krillin_load_scripts');
         wp_enqueue_script('jQuery-js', 'http://code.jquery.com/jquery.js', array(), '1.0', true);
     }
     add_action('wp_enqueue_scripts', 'jquery_loader');
+
+
+//UI Kit 3 Addition
+    add_action( 'wp_enqueue_scripts', 'custom_load_uikit' );
+    /**
+        ** Load UIKit **
+    **/
+function custom_load_uikit() {
+    wp_enqueue_style( 'uikit', '//cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.30/css/uikit.min.css' );
+
+    wp_enqueue_script( 'uikit', '//cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.30/js/uikit.min.js', array( 'jquery' ), '3.0.0.30', true );
+
+    wp_enqueue_script( 'uikit-icons', '//cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.30/js/uikit-icons.min.js', array( 'jquery' ), '3.0.0.30', true );
+}

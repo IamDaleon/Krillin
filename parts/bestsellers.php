@@ -8,30 +8,30 @@
   </div>
 </div>
 <br />
-<h2 class="text-center">Best Sellers</h2>
+<h2 class="text-center">BEST SELLERS</h2>
 <div class="card-group container">
   <div class="card">
-    <img class="card-img-top" src="..." alt="Card image cap">
+    <img class="card-img-top" src='<?php echo get_template_directory_uri(); ?>/assets/images/Gold-Liquid.webp' width='65vw' height='65vh' alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
+      <h5 class="card-title text-center">O.P.M.S.® GOLD</h5>
       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <p class="card-text"><button class="btn btn-primary">READ MORE!</button></p>
     </div>
   </div>
   <div class="card">
     <img class="card-img-top" src="..." alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
+      <h5 class="card-title">O.P.M.S.® BLACK</h5>
       <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <p class="card-text"><button class="btn btn-primary">READ MORE!</button></p>
     </div>
   </div>
   <div class="card">
     <img class="card-img-top" src="..." alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
+      <h5 class="card-title">O.P.M.S.® Silver</h5>
       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <p class="card-text"><button class="btn btn-primary">READ MORE!</button></p>
     </div>
   </div>
 </div>

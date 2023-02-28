@@ -12,7 +12,7 @@
 
 <!-- 3 columns -->
 
-            <table width="900" cellpadding="0" cellspacing="0" border="0" align="center" class="body_table">
+            <!-- <table width="900" cellpadding="0" cellspacing="0" border="0" align="center" class="body_table">
                 <tbody>
                     <tr>
                         <td width="33%" bgcolor="#CAECAE" class="column">Links</td>
@@ -22,11 +22,11 @@
                         <td width="300" bgcolor="#B0E3F0" class="column">Column 3</td>
                     </tr>
                 </tbody>
-            </table>
+            </table> -->
 <!-- end of 3 columns -->
 
 <!-- footer -->
-            <table width="600" cellpadding="0" cellspacing="0" border="0" align="center" class="body_table">
+            <!-- <table width="600" cellpadding="0" cellspacing="0" border="0" align="center" class="body_table">
               <tbody>
                 <tr>
                   <td width="100%"><table width="600" cellpadding="0" cellspacing="0" border="0" align="center" class="body_table">
@@ -40,7 +40,7 @@
                     </table></td>
                 </tr>
               </tbody>
-            </table>
+            </table> -->
 <!-- end of footer -->
 
 <!-- end of background table-->
