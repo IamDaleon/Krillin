@@ -372,11 +372,30 @@ Krillin is distributed under the terms of the GNU GPL.
     font-size: 12px;
   }
 
+  .footer-hider, div, ul, li{
+    text-decoration: none !important;
+    color: white !important;
+
+  }
+
   .cortex{
     font-weight:800;
     text-transform:uppercase;
     font-size:16px;
-    margin-bottom: -15px;
+    /* margin: 25px 0 15px 0; */
+    color: white;
+    }
+
+    .footer-top{
+        margin-top:  45px;
+    }
+    .footer-bottom{
+        margin-bottom:  65px;
+
+    }
+    .txt-reducer{
+        font-weight:600;
+        font-size:10px;
     }
 
     .reducer{
@@ -826,6 +845,10 @@ footer .container .row{
 }
 
 /* Footer - Footer Menu */
+.site-footer{
+padding-top: 35px;
+}
+
 .site-footer .container{
     display: flex;
     justify-content: space-between;
@@ -842,6 +865,7 @@ footer .container .row{
 .footer-menu ul li{ 
     display: inline;  
     margin: 0 15px 0 0;
+    text-decoration: none;
 }
 .footer-menu ul li:last-child{ 
     margin: 0; 
@@ -1076,31 +1100,7 @@ header[role="banner"] #logo-main {
      width: 25%;
   }
 
-  /* // Make default navbar links display block at choosen breakpoint and adjust styles to fit...
-@media (max-width: 62em) {
-	.navbar-nav {
-		padding-top: .425rem;
-		padding-left: 0.75rem;
-	}
-	.navbar-nav .nav-item {
-		float: none;
-	}
-	.navbar-brand {
-		float: right;
-	}
-	.navbar-brand,
-	.navbar-nav .nav-item {
-		display: block;
-	}
-	.navbar-nav .nav-item + .nav-item {
-		margin-left: 0;
-	}
-	.dropdown-menu {
-		position: relative;
-		float: none;
-	}
-} */
-
+  
 // Make default navbar links display block at choosen breakpoint and adjust styles to fit...
 @media (max-width: 62em) {
 	.navbar-nav {
@@ -1125,3 +1125,25 @@ header[role="banner"] #logo-main {
 		float: none;
 	}
 }
+
+.vl {
+    border-left: .25px solid white;
+    height: 300px;
+  }
+
+  .disclaimer{
+    margin-bottom: 20px;
+  }
+
+  .hr-reducer{
+    margin: 0 8%;
+    padding-bottom: 15px;
+  }
+
+  .col-white{
+    color: white;
+  }
+
+  .simpler li{
+    text-decoration: none;
+  }
