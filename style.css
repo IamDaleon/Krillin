@@ -1144,6 +1144,38 @@ header[role="banner"] #logo-main {
     color: white;
   }
 
-  .simpler li{
+  .condenser{
+    padding: 15px 55px 0;
+  }
+
+.po{
+    color: black;
+}
+
+.titler {
     text-decoration: none;
+    font-weight: 800;
+    line-height:3em;
+    list-style: none;
+}
+
+/* unvisited link */
+a:link {
+    color: #FFFFFF !important;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #FFFFFF !important;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #B2B2B2 !important;
+    text-decoration: none !important;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #FFFFFF !important;
   }
