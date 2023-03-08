@@ -231,7 +231,10 @@ Krillin is distributed under the terms of the GNU GPL.
   /**
    * Remove the inner border and padding in Firefox.
    */
-  
+  .navbar-expand-lg{
+    background-color: black;
+  }
+
   button::-moz-focus-inner,
   [type="button"]::-moz-focus-inner,
   [type="reset"]::-moz-focus-inner,
@@ -526,7 +529,7 @@ img {
 
 /* Top Bar Section */
 .top-bar{ 
-    background: #ffffff; 
+    background: #000000; 
     color: #000000; 
     padding: 15px 0; 
 }
@@ -862,7 +865,7 @@ padding-top: 35px;
     padding: 0; 
     margin: 0; 
 }
-.footer-menu ul li{ 
+.footer-men ul li{ 
     display: inline;  
     margin: 0 15px 0 0;
     text-decoration: none;
@@ -1109,6 +1112,8 @@ header[role="banner"] #logo-main {
 	}
 	.navbar-nav .nav-item {
 		float: none;
+    color: black;
+    background-color: black;
 	}
 	.navbar-brand {
 		float: right;
@@ -1157,6 +1162,7 @@ header[role="banner"] #logo-main {
     font-weight: 800;
     line-height:3em;
     list-style: none;
+    text-align: center;
 }
 
 /* unvisited link */
@@ -1179,11 +1185,13 @@ a:link {
   a:active {
     color: #FFFFFF !important;
   }
-
+  .col-sm-links{
+    padding-top: 10px;
+  }
   //FOR TYPE AREA
   $primary-font: sans-serif;
   $secondary-font:'Oswald', sans-serif;
-  
+
   /* body {
     background: #ddd;
     min-height: calc(100vh - 32px);

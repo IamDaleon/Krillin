@@ -37,9 +37,9 @@
       <div class="copyright">
           <p class='smallertx footer-bottom'>© 2023 O.P.M.S.® - All Rights Reserved. </p>
       </div>
-          <nav class="footer-menu smallertx">
+          <!-- <nav class="footer-menu smallertx">
               <?php wp_nav_menu( array('theme_location' => 'krillin_footer-menu', 'depth' =>1 )); ?>
-          </nav>
+          </nav> -->
       </div>
           </footer>
       </div>
