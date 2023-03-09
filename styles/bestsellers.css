@@ -1,0 +1,128 @@
+.fuz {
+  font-weight: 700;
+}
+
+.card-textbs {
+  text-align: center;
+  color: black;
+}
+
+.centerup {
+  text-align: center;
+}
+
+.testy {
+  position: absolute;
+  z-index: 3;
+  rotate: -16deg;
+  animation-name: example;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.testy2 {
+  position: absolute;
+  z-index: 3;
+  rotate: 26deg;
+  animation-name: example2;
+  animation-duration: 3.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.testy3 {
+  position: absolute;
+  z-index: 3;
+  rotate: -12deg;
+  animation-name: example3;
+  animation-duration: 3.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+.testy4 {
+  position: absolute;
+  z-index: 3;
+  rotate: 26deg;
+  animation-name: example4;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.testy5 {
+  position: absolute;
+  z-index: 3;
+  rotate: -25deg;
+  animation-name: example5;
+  animation-duration: 3.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.testy6 {
+  position: absolute;
+  z-index: 3;
+  rotate: 33deg;
+  animation-name: example6;
+  animation-duration: 3.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes example {
+  0% {
+    left: 30%;
+    top: 45%;
+  }
+  100% {
+    left: 29%;
+    top: 45%;
+  }
+}
+@keyframes example2 {
+  0% {
+    left: 25%;
+    top: 12%;
+  }
+  100% {
+    left: 27%;
+    top: 12%;
+  }
+}
+@keyframes example3 {
+  0% {
+    left: 65%;
+    top: 55%;
+  }
+  100% {
+    left: 68%;
+    top: 56%;
+  }
+}
+@keyframes example4 {
+  0% {
+    left: 65%;
+    top: 45%;
+  }
+  100% {
+    left: 68%;
+    top: 45%;
+  }
+}
+@keyframes example5 {
+  0% {
+    left: 68%;
+    top: 12%;
+  }
+  100% {
+    left: 69%;
+    top: 12%;
+  }
+}
+@keyframes example6 {
+  0% {
+    left: 32%;
+    top: 65%;
+  }
+  100% {
+    left: 28%;
+    top: 65%;
+  }
+}

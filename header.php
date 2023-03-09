@@ -9,4 +9,3 @@
     <body <?php body_class();?>>
         <div id='page' class='site'>
   <?php get_template_part('head', get_post_format() ); ?>
-            
