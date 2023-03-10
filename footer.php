@@ -101,8 +101,9 @@
             </div>
         </div>
     </footer>
+</body>
+</html>
 
-    
 <!-- <footer class="site-footer">
 <div class="row justify-content-lg-center">
     <div class="col col-lg-2">
@@ -148,5 +149,5 @@
       </div>
           </footer>
       </div>
+    </div> -->
     <?php wp_footer(); ?>
-</div> -->
