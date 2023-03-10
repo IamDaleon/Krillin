@@ -5,8 +5,8 @@
   <?php get_template_part('parts/aboutsection', get_post_format() ); ?>
   <?php get_template_part('parts/bestsellers', get_post_format() ); ?>
   <?php get_template_part('parts/labtest', get_post_format() ); ?> 
-  <?php get_template_part('parts/locator', get_post_format() ); ?> 
   <?php get_template_part('parts/press', get_post_format() ); ?> 
+  <?php get_template_part('parts/locator', get_post_format() ); ?> 
   <!-- <?php get_template_part('parts/faqs', get_post_format() ); ?> -->
   <?php get_template_part('parts/contact', get_post_format() ); ?>
         
